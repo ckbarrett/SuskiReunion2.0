@@ -3,6 +3,7 @@ import './App.css';
 import family from './assets/family.jpg';
 import dave from './assets/dave.jpg';
 import barrett from './assets/barrettfam.jpg';
+import avery from './assets/avery.jpg';
 
 function App() {
   const [timeLeft, setTimeLeft] = useState({
@@ -18,6 +19,7 @@ function App() {
     family,
     dave,
     barrett,
+    avery,
   ];
 
   useEffect(() => {
