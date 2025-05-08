@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import family from './assets/family.jpg';
+import dave from './assets/dave.jpg';
+import barrett from './assets/barrettfam.jpg';
 
 function App() {
   const [timeLeft, setTimeLeft] = useState({
@@ -12,11 +15,9 @@ function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    'https://source.unsplash.com/1600x900/?beach',
-    'https://source.unsplash.com/1600x900/?ocean',
-    'https://source.unsplash.com/1600x900/?sunset-beach',
-    'https://source.unsplash.com/1600x900/?coastal',
-    'https://source.unsplash.com/1600x900/?seaside'
+    family,
+    dave,
+    barrett,
   ];
 
   useEffect(() => {
