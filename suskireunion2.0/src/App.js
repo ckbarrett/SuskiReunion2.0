@@ -78,7 +78,7 @@ function App() {
     }, 5000); // Change slide every 5 seconds
 
     return () => clearInterval(slideInterval);
-  }, []);
+  }, [slides.length]);
 
   return (
     <div className="App">
@@ -86,7 +86,7 @@ function App() {
         <div className="nav-links">
           <a href="#countdown">Countdown</a>
           <a href="#pictures">Pictures</a>
-          <a href="https://t.vrbo.io/BiguIdtVbTb">Listing</a>
+          <a href="https://fivehillsrealty.guestybookings.com/en/properties/67cdea3318e11c0012191190">Listing</a>
           <a href="https://youtu.be/aAU0qq-DHy0">Video</a>
           
         </div>

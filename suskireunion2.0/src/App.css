@@ -134,6 +134,10 @@ html {
       height: 8px;
     }
   }
+
+ .slideshow-section .slideshow-container  {
+    padding: 1rem;
+ }
 }
 
 .time-block {
