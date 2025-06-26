@@ -55,7 +55,7 @@ function App() {
   ];
 
   useEffect(() => {
-    const targetDate = new Date('August 8, 2025 17:00:00 EDT');
+    const targetDate = new Date('August 8, 2025 16:00:00 EDT');
 
     const timer = setInterval(() => {
       const now = new Date();
@@ -88,6 +88,8 @@ function App() {
           <a href="#pictures">Pictures</a>
           <a href="https://fivehillsrealty.guestybookings.com/en/properties/67cdea3318e11c0012191190">Listing</a>
           <a href="https://youtu.be/aAU0qq-DHy0">Video</a>
+          <a href="https://docs.google.com/spreadsheets/d/1T4-c3Nx7EsRznH-0KWbGfLqlACIm09xlq8MkNeqqHjQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Planning</a>
+
           
         </div>
       </nav>
@@ -96,6 +98,7 @@ function App() {
         <div className="event-info">
           <h1 className="title">Suski Family Reunion</h1>
           <h2 className="subtitle">Ocean Isle Beach, NC</h2>
+          <h2 className="subtitle">August 8th - August 15th</h2>
         </div>
         <div className="timer">
           <div className="time-block">

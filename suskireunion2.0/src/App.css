@@ -141,11 +141,12 @@ html {
  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 540px) {
   .navigation .nav-links {
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
   }
-  }
+}
 
 .time-block {
   display: flex;
